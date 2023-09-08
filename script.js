@@ -26,7 +26,7 @@ function addZero(x, n) {
 let hours = addZero(d.getUTCHours(), 2);
 let minutes = addZero(d.getUTCMinutes(), 2);
 let seconds = addZero(d.getUTCSeconds(), 2);
-let milliseconds = addZero(d.getUTCMilliseconds(), 3);
+let milliseconds = addZero(d.getUTCMilliseconds(), 4);
 let timeInMilliSeconds =
   hours + " : " + minutes + " : " + seconds + " : " + milliseconds;
 document.getElementById("currentTime").innerHTML = timeInMilliSeconds;
